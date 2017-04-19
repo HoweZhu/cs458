@@ -170,6 +170,7 @@ Questions that we will address with the visualization are the following:
 \end{itemize}
 
 \section{Data Source}
+
 Our primary data source is going to be the National Highway Traffic Safety Administration (NHTSA). 
 They have an FTP server hosting very detailed accident data ranging from 1976-2015. 
 For our purposes we will only be looking at the past five to six years, partially because of inconsistencies within the data by year. 
@@ -177,14 +178,15 @@ Data from 2010 and on can be easily compared against each other while data befor
 Additionally, we may be able to leverage ODOT accident data to supplement the data coming from the NHTSA.
 
 \section{Data Organization}
-Three entities:
+
+We will be organizing our data into three entities. 
 \begin{itemize}
-  \item Vehicle Crash
-  \item Person 
-  \item Vehicle
+  \item Vehicle Crash: datetime, location, cause, fatalities, conditions.
+  \item Person: personal info, intoxicants involved, role in vehicle crash 
+  \item Vehicle: make, model, year, status, issues, type
 \end{itemize}
 
-Relevant relationships:
+The relationships between these three entities are described below.
 \begin{itemize}
   \item Fatal/Injury vehicle crash to person: 1 mandatory to many optional
   \item Person to Vehicle: 1 mandatory to 1 mandatory
@@ -193,7 +195,11 @@ Relevant relationships:
 
 \section{Implementation of ER Diagrams}
 
-\begin{figure}[er]
+Figure 2 shows the Entity-Relationship diagram detailing the relationships between our stored entities.
+We will be translating the ER diagrams into a schema for MySQL.
+Once the data is loaded into the MySQL database the application used to show the data will be able to query the necessary data.
+
+\begin{figure}[tb]
   \centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
   \includegraphics[width=\columnwidth]{entityrelationship}
   \caption{Entity-Relation diagram showing the relationships between vehicle crashes, people, and vehicles.}
@@ -202,7 +208,14 @@ Relevant relationships:
 
 \section{Design of Visualization Interface}
 
-\begin{figure}[ui]
+The primary component of the interface is going to be the map which shows accidents represented as a heat map. 
+The data points used for the map will depend on what filters are set (e.g. number of all crashes, specific types of crashes, etc.).
+There will be a slider that can be used to adjust what year is shown for the data (e.g. all accidents, accidents in 2015, accidents in 2014, etc.). 
+Additionally, a legend will complement the map figure to help describe the elements show on the map. 
+For example, if a heat map is used, the legend could be used to map colors to accident values.
+Figure 3 details a mockup of our user interface. 
+
+\begin{figure}[tb]
   \centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
   \includegraphics[width=\columnwidth]{interface}
   \caption{Mockup of our proposed user interface for displaying data.}
