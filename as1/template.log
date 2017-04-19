@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2016.3.16)  19 APR 2017 14:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2016.3.16)  19 APR 2017 16:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -221,13 +221,6 @@ Package: cite 2010/09/10  v 5.3
 Type X to quit or <RETURN> to proceed,
 or enter new name. (Default extension: sty)
 
-Enter file name: as1.pdf
-
-! LaTeX Error: File `as1.pdf' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: pdf)
-
 Enter file name: template.tex
 (./template.tex
 
@@ -376,51 +369,51 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 
 Package hyperref Warning: Option `pdftex' has already been used,
-(hyperref)                setting the option has no effect on input line 143.
+(hyperref)                setting the option has no effect on input line 129.
 
 
 Package hyperref Warning: Option `pagebackref' has already been used,
-(hyperref)                setting the option has no effect on input line 143.
+(hyperref)                setting the option has no effect on input line 129.
 
-Package hyperref Info: Option `pageanchor' set `true' on input line 143.
-Package hyperref Info: Option `plainpages' set `false' on input line 143.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 143.
+Package hyperref Info: Option `pageanchor' set `true' on input line 129.
+Package hyperref Info: Option `plainpages' set `false' on input line 129.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 129.
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 143.
+(hyperref)                setting the option has no effect on input line 129.
 
-Package hyperref Info: Option `bookmarksnumbered' set `false' on input line 143
+Package hyperref Info: Option `bookmarksnumbered' set `false' on input line 129
 .
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 143.
-Package hyperref Info: Option `breaklinks' set `true' on input line 143.
-Package hyperref Info: Option `colorlinks' set `false' on input line 143.
-Package hyperref Info: Option `nesting' set `true' on input line 143.
-Package hyperref Info: Option `linktocpage' set `true' on input line 143.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 129.
+Package hyperref Info: Option `breaklinks' set `true' on input line 129.
+Package hyperref Info: Option `colorlinks' set `false' on input line 129.
+Package hyperref Info: Option `nesting' set `true' on input line 129.
+Package hyperref Info: Option `linktocpage' set `true' on input line 129.
 No file template.aux.
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 149.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 149.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 135.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 135.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 149.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 135.
+LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 135.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
@@ -446,14 +439,14 @@ Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.jpeg,.eps]
+(grfext)             [.pdf,.PNG,.png,.jpg,.jpeg,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 149.
+LaTeX Info: Redefining \microtypecontext on input line 135.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -469,7 +462,7 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 \big@size=\dimen127
 \AtBeginShipoutBox=\box27
-Package hyperref Info: Link coloring OFF on input line 149.
+Package hyperref Info: Link coloring OFF on input line 135.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -479,13 +472,13 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count110
 )
-LaTeX Info: Redefining \ref on input line 149.
-LaTeX Info: Redefining \pageref on input line 149.
-LaTeX Info: Redefining \nameref on input line 149.
+LaTeX Info: Redefining \ref on input line 135.
+LaTeX Info: Redefining \pageref on input line 135.
+LaTeX Info: Redefining \nameref on input line 135.
 \@outlinefile=\write3
 \openout3 = `template.out'.
 
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 158.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 144.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
@@ -495,8 +488,8 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `phv' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 15
-8.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 14
+4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
@@ -505,1333 +498,92 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 15
-8.
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 14
+4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 15
-8.
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 14
+4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 15
-8.
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 14
+4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 158.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 144.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 158.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 144.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 158.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 158.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 144.
 \abstractwidth=\skip50
 
-<pictures/CypressView.jpg, id=4, 1260.71pt x 497.86pt>
-File: pictures/CypressView.jpg Graphic file (type jpg)
-
-<use pictures/CypressView.jpg>
-Package pdftex.def Info: pictures/CypressView.jpg used on input line 158.
-(pdftex.def)             Requested size: 467.22528pt x 184.50919pt.
+<pictures/highway.PNG, id=4, 1204.5pt x 676.5275pt>
+File: pictures/highway.PNG Graphic file (type png)
+ <use pictures/highway.PNG>
+Package pdftex.def Info: pictures/highway.PNG used on input line 144.
+(pdftex.def)             Requested size: 467.22528pt x 262.4304pt.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 158.
- <diamondrule.pdf, id=5, 213.79875pt x 12.045pt>
-File: diamondrule.pdf Graphic file (type pdf)
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 144.
 
-<use diamondrule.pdf>
-Package pdftex.def Info: diamondrule.pdf used on input line 158.
+<diamondrule.pdf, id=5, 213.79875pt x 12.045pt>
+File: diamondrule.pdf Graphic file (type pdf)
+ <use diamondrule.pdf>
+Package pdftex.def Info: diamondrule.pdf used on input line 144.
 (pdftex.def)             Requested size: 213.79822pt x 12.04495pt.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 158.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 144.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <9> not available
-(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 158.
+(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 144.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 158.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 144.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 158.
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 158.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 144.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 144.
 
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-LaTeX Font Info:    Try loading font information for OT1+txtt on input line 166
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+ [1{/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+ <./pictures/highway.PNG> <./diamondrule.pdf>]
+<pictures/entityrelationship.PNG, id=22, 306.39468pt x 417.81094pt>
+File: pictures/entityrelationship.PNG Graphic file (type png)
+
+<use pictures/entityrelationship.PNG>
+Package pdftex.def Info: pictures/entityrelationship.PNG used on input line 198
 .
- (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
-File: ot1txtt.fd 2000/12/15 v3.1
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `txtt' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OMS+txtt on input line 166
-.
-LaTeX Font Info:    No file OMStxtt.fd. on input line 166.
+(pdftex.def)             Requested size: 251.31898pt x 342.7092pt.
 
+<pictures/interface.PNG, id=24, 474.27188pt x 489.32813pt>
+File: pictures/interface.PNG Graphic file (type png)
 
-LaTeX Font Warning: Font shape `OMS/txtt/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbackslash' on input line 166.
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 166.
-
-LaTeX Warning: Reference `fig:sample' on page 1 undefined on input line 166.
-
-
-LaTeX Warning: Reference `tab:vis_papers' on page 1 undefined on input line 166
-.
-
-
-Underfull \hbox (badness 6961) in paragraph at lines 166--167
-[]\OT1/ptm/m/n/9 (+20) The style uses the hy-per-ref pack-age, thus turns ref-
- []
-
-
-Underfull \hbox (badness 5862) in paragraph at lines 166--167
-\OT1/ptm/m/n/9 (+20) er-ences into in-ter-nal links. We thus rec-om-mend to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
-\OT1/ptm/m/n/9 (+20) make use of the ``\OMS/txtt/m/n/9 n\OT1/txtt/m/n/9 autoref
-\OMS/txtt/m/n/9 f\OT1/txtt/m/n/9 reference\OMS/txtt/m/n/9 g\OT1/ptm/m/n/9 (+20)
- '' call (in-
- []
-
-
-Underfull \hbox (badness 6173) in paragraph at lines 166--167
-\OT1/ptm/m/n/9 (+20) stead of ``\OT1/txtt/m/n/9 Figure~\OMS/txtt/m/n/9 n\OT1/tx
-tt/m/n/9 ref\OMS/txtt/m/n/9 f\OT1/txtt/m/n/9 reference\OMS/txtt/m/n/9 g\OT1/ptm
-/m/n/9 (+20) '' or sim-i-lar) since
- []
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
-
-Overfull \hbox (0.70251pt too wide) in paragraph at lines 168--172
-\OT1/ptm/m/n/9 (-20) use ``\OMS/txtt/m/n/9 n\OT1/txtt/m/n/9 bibliographystyle\O
-MS/txtt/m/n/9 f\OT1/txtt/m/n/9 abbrv-doi-hyperref-narrow\OMS/txtt/m/n/9 g\OT1/p
-tm/m/n/9 (-20) ''
- []
-
-
-Underfull \hbox (badness 1609) in paragraph at lines 168--172
-\OT1/ptm/b/n/9 Note 1: \OT1/ptm/m/n/9 (+20) oc-ca-sion-ally (for some L[]T[]X d
-is-tri-bu-tions) this
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 168--172
-\OT1/ptm/m/n/9 (+20) (``\OT1/txtt/m/n/9 pdfendlink ended up in different nestin
-g level
- []
-
-
-Underfull \hbox (badness 1558) in paragraph at lines 168--172
-\OT1/ptm/m/n/9 (+20) lat-est ver-sion of the hy-per-ref pack-age (i.e., up-date
- your
- []
-
-
-Underfull \hbox (badness 3312) in paragraph at lines 168--172
-\OT1/ptm/m/n/9 (+20) L[]T[]X in-stal-la-tion/packages) or, al-ter-na-tively, re
--vert back
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 168--172
-\OT1/ptm/m/n/9 (+20) to ``\OMS/txtt/m/n/9 n\OT1/txtt/m/n/9 bibliographystyle\OM
-S/txtt/m/n/9 f\OT1/txtt/m/n/9 abbrv-doi-narrow\OMS/txtt/m/n/9 g\OT1/ptm/m/n/9 (
-+20) '' (at the
- []
-
-[1{/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
- <./pictures/CypressView.jpg> <./diamondrule.pdf>]
-
-LaTeX Warning: Citation `Max:1995:OMF' on page 2 undefined on input line 178.
-
-
-LaTeX Warning: Citation `Kitware:2003' on page 2 undefined on input line 178.
-
-
-LaTeX Warning: Citation `Kitware:2003' on page 2 undefined on input line 178.
-
-
-LaTeX Warning: Citation `Max:1995:OMF' on page 2 undefined on input line 178.
-
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 189.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 189.
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
-[]\OT1/ptm/m/n/9 (+20) abbreviated pro-ceed-ings name: e.g., ``Proc.\OMS/cmsy/m
-/n/9 n
- []
-
-
-Underfull \hbox (badness 7649) in paragraph at lines 196--197
-\OT1/ptm/m/n/9 (+20) CONF[]ACRONYNM'' with-out the year; ex-am-ple:
- []
-
-
-Underfull \hbox (badness 4454) in paragraph at lines 201--202
-[]\OT1/ptm/m/n/9 (+20) article/paper ti-tle con-ven-tion: re-frain from us-ing 
-curly
- []
-
-
-LaTeX Warning: Citation `Lorensen:1987:MCA' on page 2 undefined on input line 2
-12.
-
-
-LaTeX Warning: Citation `Lorensen:1987:MCA' on page 2 undefined on input line 2
-12.
-
-
-LaTeX Warning: Citation `Kitware:2003' on page 2 undefined on input line 224.
-
-
-LaTeX Warning: Citation `Max:1995:OMF' on page 2 undefined on input line 224.
-
-
-LaTeX Warning: Citation `Kindlmann:1999:SAG' on page 2 undefined on input line 
-240.
-
-
-LaTeX Warning: Reference `tab:vis_papers' on page 2 undefined on input line 258
-.
-
-
-! LaTeX Error: Environment tabu undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.277   \begin{tabu}
-                    {%
-? 
-! Misplaced \noalign.
-\toprule ->\noalign 
-                    {\ifnum 0=`}\fi \@aboverulesep =\abovetopsep \global \@b...
-l.282   \toprule
-                
-? 
-! Misplaced alignment tab character &.
-l.283    year &
-                \rotatebox{90}{Vis/SciVis} &   \rotatebox{90}{SciVis conf} &...
-
-? 
-! Misplaced alignment tab character &.
-l.283    year & \rotatebox{90}{Vis/SciVis} &
-                                               \rotatebox{90}{SciVis conf} &...
-
-? 
-! Misplaced alignment tab character &.
-l.283 ...SciVis} &   \rotatebox{90}{SciVis conf} &
-                                                     \rotatebox{90}{InfoVis}...
-
-? 
-! Misplaced alignment tab character &.
-l.283 ...ciVis conf} &   \rotatebox{90}{InfoVis} &
-                                                     \rotatebox{90}{VAST} & ...
-
-? 
-! Misplaced alignment tab character &.
-l.283 ...x{90}{InfoVis} &   \rotatebox{90}{VAST} &
-                                                     \rotatebox{90}{VAST con...
-
-? 
-! Misplaced alignment tab character &.
-l.283 ...90}{VAST} &   \rotatebox{90}{VAST conf} &
-                                                     \rotatebox{90}{TVCG @ V...
-
-? 
-! Misplaced alignment tab character &.
-l.283 ...ST conf} &   \rotatebox{90}{TVCG @ VIS} &
-                                                     \rotatebox{90}{CG\&A @ ...
-
-? 
-! Misplaced alignment tab character &.
-l.283 ... @ VIS} &   \rotatebox{90}{CG\&A @ VIS} &
-                                                     \rotatebox{90}{VIS/VisW...
-
-? 
-! Misplaced alignment tab character &.
-l.283 ...eek} \rotatebox{90}{incl. TVCG/CG\&A}   &
-                                                     \rotatebox{90}{VIS/VisW...
-
-? 
-! Misplaced \noalign.
-\midrule ->\noalign 
-                    {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global \@...
-l.284   \midrule
-                
-? 
-! Misplaced alignment tab character &.
-l.285   2015 &
-               33 & 9 & 38 & 33 & 14 & 17 & 15 & 159 & 127 \\
-? 
-! Misplaced alignment tab character &.
-l.285   2015 & 33 &
-                    9 & 38 & 33 & 14 & 17 & 15 & 159 & 127 \\
-? 
-! Misplaced alignment tab character &.
-l.285   2015 & 33 & 9 &
-                        38 & 33 & 14 & 17 & 15 & 159 & 127 \\
-? 
-! Misplaced alignment tab character &.
-l.285   2015 & 33 & 9 & 38 &
-                             33 & 14 & 17 & 15 & 159 & 127 \\
-? 
-! Misplaced alignment tab character &.
-l.285   2015 & 33 & 9 & 38 & 33 &
-                                  14 & 17 & 15 & 159 & 127 \\
-? 
-! Misplaced alignment tab character &.
-l.285   2015 & 33 & 9 & 38 & 33 & 14 &
-                                       17 & 15 & 159 & 127 \\
-? 
-! Misplaced alignment tab character &.
-l.285   2015 & 33 & 9 & 38 & 33 & 14 & 17 &
-                                            15 & 159 & 127 \\
-? 
-! Misplaced alignment tab character &.
-l.285   2015 & 33 & 9 & 38 & 33 & 14 & 17 & 15 &
-                                                 159 & 127 \\
-? 
-! Misplaced alignment tab character &.
-l.285 ...& 33 & 9 & 38 & 33 & 14 & 17 & 15 & 159 &
-                                                   127 \\
-? 
-! Misplaced alignment tab character &.
-l.286   2014 &
-               34 &   & 45 & 33 & 21 & 20 &   & 153 & 133 \\
-? 
-! Misplaced alignment tab character &.
-l.286   2014 & 34 &
-                      & 45 & 33 & 21 & 20 &   & 153 & 133 \\
-? 
-! Misplaced alignment tab character &.
-l.286   2014 & 34 &   &
-                        45 & 33 & 21 & 20 &   & 153 & 133 \\
-? 
-! Misplaced alignment tab character &.
-l.286   2014 & 34 &   & 45 &
-                             33 & 21 & 20 &   & 153 & 133 \\
-? 
-! Misplaced alignment tab character &.
-l.286   2014 & 34 &   & 45 & 33 &
-                                  21 & 20 &   & 153 & 133 \\
-? 
-! Misplaced alignment tab character &.
-l.286   2014 & 34 &   & 45 & 33 & 21 &
-                                       20 &   & 153 & 133 \\
-? 
-! Misplaced alignment tab character &.
-l.286   2014 & 34 &   & 45 & 33 & 21 & 20 &
-                                              & 153 & 133 \\
-? 
-! Misplaced alignment tab character &.
-l.286   2014 & 34 &   & 45 & 33 & 21 & 20 &   &
-                                                153 & 133 \\
-? 
-! Misplaced alignment tab character &.
-l.286 ... & 34 &   & 45 & 33 & 21 & 20 &   & 153 &
-                                                   133 \\
-? 
-! Misplaced alignment tab character &.
-l.287   2013 &
-               31 &   & 38 & 32 &   & 20 &   & 121 & 101 \\
-? 
-! Misplaced alignment tab character &.
-l.287   2013 & 31 &
-                      & 38 & 32 &   & 20 &   & 121 & 101 \\
-? 
-! Misplaced alignment tab character &.
-l.287   2013 & 31 &   &
-                        38 & 32 &   & 20 &   & 121 & 101 \\
-? 
-! Misplaced alignment tab character &.
-l.287   2013 & 31 &   & 38 &
-                             32 &   & 20 &   & 121 & 101 \\
-? 
-! Misplaced alignment tab character &.
-l.287   2013 & 31 &   & 38 & 32 &
-                                    & 20 &   & 121 & 101 \\
-? 
-! Misplaced alignment tab character &.
-l.287   2013 & 31 &   & 38 & 32 &   &
-                                      20 &   & 121 & 101 \\
-? 
-! Misplaced alignment tab character &.
-l.287   2013 & 31 &   & 38 & 32 &   & 20 &
-                                             & 121 & 101 \\
-? 
-! Misplaced alignment tab character &.
-l.287   2013 & 31 &   & 38 & 32 &   & 20 &   &
-                                               121 & 101 \\
-? 
-! Misplaced alignment tab character &.
-l.287 ...3 & 31 &   & 38 & 32 &   & 20 &   & 121 &
-                                                   101 \\
-? 
-! Misplaced alignment tab character &.
-l.288   2012 &
-               42 &   & 44 & 30 &   & 23 &   & 139 & 116 \\
-? 
-! Misplaced alignment tab character &.
-l.288   2012 & 42 &
-                      & 44 & 30 &   & 23 &   & 139 & 116 \\
-? 
-! Misplaced alignment tab character &.
-l.288   2012 & 42 &   &
-                        44 & 30 &   & 23 &   & 139 & 116 \\
-? 
-! Misplaced alignment tab character &.
-l.288   2012 & 42 &   & 44 &
-                             30 &   & 23 &   & 139 & 116 \\
-? 
-! Misplaced alignment tab character &.
-l.288   2012 & 42 &   & 44 & 30 &
-                                    & 23 &   & 139 & 116 \\
-? 
-! Misplaced alignment tab character &.
-l.288   2012 & 42 &   & 44 & 30 &   &
-                                      23 &   & 139 & 116 \\
-? 
-! Misplaced alignment tab character &.
-l.288   2012 & 42 &   & 44 & 30 &   & 23 &
-                                             & 139 & 116 \\
-? 
-! Misplaced alignment tab character &.
-l.288   2012 & 42 &   & 44 & 30 &   & 23 &   &
-                                               139 & 116 \\
-? 
-! Misplaced alignment tab character &.
-l.288 ...2 & 42 &   & 44 & 30 &   & 23 &   & 139 &
-                                                   116 \\
-? 
-! Misplaced alignment tab character &.
-l.289   2011 &
-               49 &   & 44 & 26 &   & 20 &   & 139 & 119 \\
-? 
-! Misplaced alignment tab character &.
-l.289   2011 & 49 &
-                      & 44 & 26 &   & 20 &   & 139 & 119 \\
-? 
-! Misplaced alignment tab character &.
-l.289   2011 & 49 &   &
-                        44 & 26 &   & 20 &   & 139 & 119 \\
-? 
-! Misplaced alignment tab character &.
-l.289   2011 & 49 &   & 44 &
-                             26 &   & 20 &   & 139 & 119 \\
-? 
-! Misplaced alignment tab character &.
-l.289   2011 & 49 &   & 44 & 26 &
-                                    & 20 &   & 139 & 119 \\
-? 
-! Misplaced alignment tab character &.
-l.289   2011 & 49 &   & 44 & 26 &   &
-                                      20 &   & 139 & 119 \\
-? 
-! Misplaced alignment tab character &.
-l.289   2011 & 49 &   & 44 & 26 &   & 20 &
-                                             & 139 & 119 \\
-? 
-! Misplaced alignment tab character &.
-l.289   2011 & 49 &   & 44 & 26 &   & 20 &   &
-                                               139 & 119 \\
-? 
-! Misplaced alignment tab character &.
-l.289 ...1 & 49 &   & 44 & 26 &   & 20 &   & 139 &
-                                                   119 \\
-? 
-! Misplaced alignment tab character &.
-l.290   2010 &
-               48 &   & 35 & 26 &   &   &   & 109 & 109 \\
-? 
-! Misplaced alignment tab character &.
-l.290   2010 & 48 &
-                      & 35 & 26 &   &   &   & 109 & 109 \\
-? 
-! Misplaced alignment tab character &.
-l.290   2010 & 48 &   &
-                        35 & 26 &   &   &   & 109 & 109 \\
-? 
-! Misplaced alignment tab character &.
-l.290   2010 & 48 &   & 35 &
-                             26 &   &   &   & 109 & 109 \\
-? 
-! Misplaced alignment tab character &.
-l.290   2010 & 48 &   & 35 & 26 &
-                                    &   &   & 109 & 109 \\
-? 
-! Misplaced alignment tab character &.
-l.290   2010 & 48 &   & 35 & 26 &   &
-                                        &   & 109 & 109 \\
-? 
-! Misplaced alignment tab character &.
-l.290   2010 & 48 &   & 35 & 26 &   &   &
-                                            & 109 & 109 \\
-? 
-! Misplaced alignment tab character &.
-l.290   2010 & 48 &   & 35 & 26 &   &   &   &
-                                              109 & 109 \\
-? 
-! Misplaced alignment tab character &.
-l.290 ...10 & 48 &   & 35 & 26 &   &   &   & 109 &
-                                                   109 \\
-? 
-! Misplaced alignment tab character &.
-l.291   2009 &
-               54 &   & 37 & 26 &   &   &   & 117 & 117 \\
-? 
-! Misplaced alignment tab character &.
-l.291   2009 & 54 &
-                      & 37 & 26 &   &   &   & 117 & 117 \\
-? 
-! Misplaced alignment tab character &.
-l.291   2009 & 54 &   &
-                        37 & 26 &   &   &   & 117 & 117 \\
-? 
-! Misplaced alignment tab character &.
-l.291   2009 & 54 &   & 37 &
-                             26 &   &   &   & 117 & 117 \\
-? 
-! Misplaced alignment tab character &.
-l.291   2009 & 54 &   & 37 & 26 &
-                                    &   &   & 117 & 117 \\
-? 
-! Misplaced alignment tab character &.
-l.291   2009 & 54 &   & 37 & 26 &   &
-                                        &   & 117 & 117 \\
-? 
-! Misplaced alignment tab character &.
-l.291   2009 & 54 &   & 37 & 26 &   &   &
-                                            & 117 & 117 \\
-? 
-! Misplaced alignment tab character &.
-l.291   2009 & 54 &   & 37 & 26 &   &   &   &
-                                              117 & 117 \\
-? 
-! Misplaced alignment tab character &.
-l.291 ...09 & 54 &   & 37 & 26 &   &   &   & 117 &
-                                                   117 \\
-? 
-! Misplaced alignment tab character &.
-l.292   2008 &
-               50 &   & 28 & 21 &   &   &   & 99 & 99 \\
-? 
-! Misplaced alignment tab character &.
-l.292   2008 & 50 &
-                      & 28 & 21 &   &   &   & 99 & 99 \\
-? 
-! Misplaced alignment tab character &.
-l.292   2008 & 50 &   &
-                        28 & 21 &   &   &   & 99 & 99 \\
-? 
-! Misplaced alignment tab character &.
-l.292   2008 & 50 &   & 28 &
-                             21 &   &   &   & 99 & 99 \\
-? 
-! Misplaced alignment tab character &.
-l.292   2008 & 50 &   & 28 & 21 &
-                                    &   &   & 99 & 99 \\
-? 
-! Misplaced alignment tab character &.
-l.292   2008 & 50 &   & 28 & 21 &   &
-                                        &   & 99 & 99 \\
-? 
-! Misplaced alignment tab character &.
-l.292   2008 & 50 &   & 28 & 21 &   &   &
-                                            & 99 & 99 \\
-? 
-! Misplaced alignment tab character &.
-l.292   2008 & 50 &   & 28 & 21 &   &   &   &
-                                              99 & 99 \\
-? 
-! Misplaced alignment tab character &.
-l.292   2008 & 50 &   & 28 & 21 &   &   &   & 99 &
-                                                   99 \\
-? 
-! Misplaced alignment tab character &.
-l.293   2007 &
-               56 &   & 27 & 24 &   &   &   & 107 & 107 \\
-? 
-! Misplaced alignment tab character &.
-l.293   2007 & 56 &
-                      & 27 & 24 &   &   &   & 107 & 107 \\
-? 
-! Misplaced alignment tab character &.
-l.293   2007 & 56 &   &
-                        27 & 24 &   &   &   & 107 & 107 \\
-? 
-! Misplaced alignment tab character &.
-l.293   2007 & 56 &   & 27 &
-                             24 &   &   &   & 107 & 107 \\
-? 
-! Misplaced alignment tab character &.
-l.293   2007 & 56 &   & 27 & 24 &
-                                    &   &   & 107 & 107 \\
-? 
-! Misplaced alignment tab character &.
-l.293   2007 & 56 &   & 27 & 24 &   &
-                                        &   & 107 & 107 \\
-? 
-! Misplaced alignment tab character &.
-l.293   2007 & 56 &   & 27 & 24 &   &   &
-                                            & 107 & 107 \\
-? 
-! Misplaced alignment tab character &.
-l.293   2007 & 56 &   & 27 & 24 &   &   &   &
-                                              107 & 107 \\
-? 
-! Misplaced alignment tab character &.
-l.293 ...07 & 56 &   & 27 & 24 &   &   &   & 107 &
-                                                   107 \\
-? 
-! Misplaced alignment tab character &.
-l.294   2006 &
-               63 &   & 24 & 26 &   &   &   & 113 & 113 \\
-? 
-! Misplaced alignment tab character &.
-l.294   2006 & 63 &
-                      & 24 & 26 &   &   &   & 113 & 113 \\
-? 
-! Misplaced alignment tab character &.
-l.294   2006 & 63 &   &
-                        24 & 26 &   &   &   & 113 & 113 \\
-? 
-! Misplaced alignment tab character &.
-l.294   2006 & 63 &   & 24 &
-                             26 &   &   &   & 113 & 113 \\
-? 
-! Misplaced alignment tab character &.
-l.294   2006 & 63 &   & 24 & 26 &
-                                    &   &   & 113 & 113 \\
-? 
-! Misplaced alignment tab character &.
-l.294   2006 & 63 &   & 24 & 26 &   &
-                                        &   & 113 & 113 \\
-? 
-! Misplaced alignment tab character &.
-l.294   2006 & 63 &   & 24 & 26 &   &   &
-                                            & 113 & 113 \\
-? 
-! Misplaced alignment tab character &.
-l.294   2006 & 63 &   & 24 & 26 &   &   &   &
-                                              113 & 113 \\
-? 
-! Misplaced alignment tab character &.
-l.294 ...06 & 63 &   & 24 & 26 &   &   &   & 113 &
-                                                   113 \\
-? 
-! Misplaced alignment tab character &.
-l.295   2005 &
-               88 &   & 31 &   &   &   &   & 119 & 119 \\
-? 
-! Misplaced alignment tab character &.
-l.295   2005 & 88 &
-                      & 31 &   &   &   &   & 119 & 119 \\
-? 
-! Misplaced alignment tab character &.
-l.295   2005 & 88 &   &
-                        31 &   &   &   &   & 119 & 119 \\
-? 
-! Misplaced alignment tab character &.
-l.295   2005 & 88 &   & 31 &
-                               &   &   &   & 119 & 119 \\
-? 
-! Misplaced alignment tab character &.
-l.295   2005 & 88 &   & 31 &   &
-                                   &   &   & 119 & 119 \\
-? 
-! Misplaced alignment tab character &.
-l.295   2005 & 88 &   & 31 &   &   &
-                                       &   & 119 & 119 \\
-? 
-! Misplaced alignment tab character &.
-l.295   2005 & 88 &   & 31 &   &   &   &
-                                           & 119 & 119 \\
-? 
-! Misplaced alignment tab character &.
-l.295   2005 & 88 &   & 31 &   &   &   &   &
-                                             119 & 119 \\
-? 
-! Misplaced alignment tab character &.
-l.295   2005 & 88 &   & 31 &   &   &   &   & 119 &
-                                                   119 \\
-? 
-! Misplaced alignment tab character &.
-l.296   2004 &
-               70 &   & 27 &   &   &   &   & 97 & 97 \\
-? 
-! Misplaced alignment tab character &.
-l.296   2004 & 70 &
-                      & 27 &   &   &   &   & 97 & 97 \\
-? 
-! Misplaced alignment tab character &.
-l.296   2004 & 70 &   &
-                        27 &   &   &   &   & 97 & 97 \\
-? 
-! Misplaced alignment tab character &.
-l.296   2004 & 70 &   & 27 &
-                               &   &   &   & 97 & 97 \\
-? 
-! Misplaced alignment tab character &.
-l.296   2004 & 70 &   & 27 &   &
-                                   &   &   & 97 & 97 \\
-? 
-! Misplaced alignment tab character &.
-l.296   2004 & 70 &   & 27 &   &   &
-                                       &   & 97 & 97 \\
-? 
-! Misplaced alignment tab character &.
-l.296   2004 & 70 &   & 27 &   &   &   &
-                                           & 97 & 97 \\
-? 
-! Misplaced alignment tab character &.
-l.296   2004 & 70 &   & 27 &   &   &   &   &
-                                             97 & 97 \\
-? 
-! Misplaced alignment tab character &.
-l.296   2004 & 70 &   & 27 &   &   &   &   & 97 &
-                                                  97 \\
-? 
-! Misplaced alignment tab character &.
-l.297   2003 &
-               74 &   & 29 &   &   &   &   & 103 & 103 \\
-? 
-! Misplaced alignment tab character &.
-l.297   2003 & 74 &
-                      & 29 &   &   &   &   & 103 & 103 \\
-? 
-! Misplaced alignment tab character &.
-l.297   2003 & 74 &   &
-                        29 &   &   &   &   & 103 & 103 \\
-? 
-! Misplaced alignment tab character &.
-l.297   2003 & 74 &   & 29 &
-                               &   &   &   & 103 & 103 \\
-? 
-! Misplaced alignment tab character &.
-l.297   2003 & 74 &   & 29 &   &
-                                   &   &   & 103 & 103 \\
-? 
-! Misplaced alignment tab character &.
-l.297   2003 & 74 &   & 29 &   &   &
-                                       &   & 103 & 103 \\
-? 
-! Misplaced alignment tab character &.
-l.297   2003 & 74 &   & 29 &   &   &   &
-                                           & 103 & 103 \\
-? 
-! Misplaced alignment tab character &.
-l.297   2003 & 74 &   & 29 &   &   &   &   &
-                                             103 & 103 \\
-? 
-! Misplaced alignment tab character &.
-l.297   2003 & 74 &   & 29 &   &   &   &   & 103 &
-                                                   103 \\
-? 
-! Misplaced alignment tab character &.
-l.298   2002 &
-               78 &   & 23 &   &   &   &   & 101 & 101 \\
-? 
-! Misplaced alignment tab character &.
-l.298   2002 & 78 &
-                      & 23 &   &   &   &   & 101 & 101 \\
-? 
-! Misplaced alignment tab character &.
-l.298   2002 & 78 &   &
-                        23 &   &   &   &   & 101 & 101 \\
-? 
-! Misplaced alignment tab character &.
-l.298   2002 & 78 &   & 23 &
-                               &   &   &   & 101 & 101 \\
-? 
-! Misplaced alignment tab character &.
-l.298   2002 & 78 &   & 23 &   &
-                                   &   &   & 101 & 101 \\
-? 
-! Misplaced alignment tab character &.
-l.298   2002 & 78 &   & 23 &   &   &
-                                       &   & 101 & 101 \\
-? 
-! Misplaced alignment tab character &.
-l.298   2002 & 78 &   & 23 &   &   &   &
-                                           & 101 & 101 \\
-? 
-! Misplaced alignment tab character &.
-l.298   2002 & 78 &   & 23 &   &   &   &   &
-                                             101 & 101 \\
-? 
-! Misplaced alignment tab character &.
-l.298   2002 & 78 &   & 23 &   &   &   &   & 101 &
-                                                   101 \\
-? 
-! Misplaced alignment tab character &.
-l.299   2001 &
-               74 &   & 22 &   &   &   &   & 96 & 96 \\
-? 
-! Misplaced alignment tab character &.
-l.299   2001 & 74 &
-                      & 22 &   &   &   &   & 96 & 96 \\
-? 
-! Misplaced alignment tab character &.
-l.299   2001 & 74 &   &
-                        22 &   &   &   &   & 96 & 96 \\
-? 
-! Misplaced alignment tab character &.
-l.299   2001 & 74 &   & 22 &
-                               &   &   &   & 96 & 96 \\
-? 
-! Misplaced alignment tab character &.
-l.299   2001 & 74 &   & 22 &   &
-                                   &   &   & 96 & 96 \\
-? 
-! Misplaced alignment tab character &.
-l.299   2001 & 74 &   & 22 &   &   &
-                                       &   & 96 & 96 \\
-? 
-! Misplaced alignment tab character &.
-l.299   2001 & 74 &   & 22 &   &   &   &
-                                           & 96 & 96 \\
-? 
-! Misplaced alignment tab character &.
-l.299   2001 & 74 &   & 22 &   &   &   &   &
-                                             96 & 96 \\
-? 
-! Misplaced alignment tab character &.
-l.299   2001 & 74 &   & 22 &   &   &   &   & 96 &
-                                                  96 \\
-? 
-! Misplaced alignment tab character &.
-l.300   2000 &
-               73 &   & 20 &   &   &   &   & 93 & 93 \\
-? 
-! Misplaced alignment tab character &.
-l.300   2000 & 73 &
-                      & 20 &   &   &   &   & 93 & 93 \\
-? 
-! Misplaced alignment tab character &.
-l.300   2000 & 73 &   &
-                        20 &   &   &   &   & 93 & 93 \\
-? 
-! Misplaced alignment tab character &.
-l.300   2000 & 73 &   & 20 &
-                               &   &   &   & 93 & 93 \\
-? 
-! Misplaced alignment tab character &.
-l.300   2000 & 73 &   & 20 &   &
-                                   &   &   & 93 & 93 \\
-? 
-! Misplaced alignment tab character &.
-l.300   2000 & 73 &   & 20 &   &   &
-                                       &   & 93 & 93 \\
-? 
-! Misplaced alignment tab character &.
-l.300   2000 & 73 &   & 20 &   &   &   &
-                                           & 93 & 93 \\
-? 
-! Misplaced alignment tab character &.
-l.300   2000 & 73 &   & 20 &   &   &   &   &
-                                             93 & 93 \\
-? 
-! Misplaced alignment tab character &.
-l.300   2000 & 73 &   & 20 &   &   &   &   & 93 &
-                                                  93 \\
-? 
-! Misplaced alignment tab character &.
-l.301   1999 &
-               69 &   & 19 &   &   &   &   & 88 & 88 \\
-? 
-! Misplaced alignment tab character &.
-l.301   1999 & 69 &
-                      & 19 &   &   &   &   & 88 & 88 \\
-? 
-! Misplaced alignment tab character &.
-l.301   1999 & 69 &   &
-                        19 &   &   &   &   & 88 & 88 \\
-? 
-! Misplaced alignment tab character &.
-l.301   1999 & 69 &   & 19 &
-                               &   &   &   & 88 & 88 \\
-? 
-! Misplaced alignment tab character &.
-l.301   1999 & 69 &   & 19 &   &
-                                   &   &   & 88 & 88 \\
-? 
-! Misplaced alignment tab character &.
-l.301   1999 & 69 &   & 19 &   &   &
-                                       &   & 88 & 88 \\
-? 
-! Misplaced alignment tab character &.
-l.301   1999 & 69 &   & 19 &   &   &   &
-                                           & 88 & 88 \\
-? 
-! Misplaced alignment tab character &.
-l.301   1999 & 69 &   & 19 &   &   &   &   &
-                                             88 & 88 \\
-? 
-! Misplaced alignment tab character &.
-l.301   1999 & 69 &   & 19 &   &   &   &   & 88 &
-                                                  88 \\
-? 
-! Misplaced alignment tab character &.
-l.302   1998 &
-               72 &   & 18 &   &   &   &   & 90 & 90 \\
-? 
-! Misplaced alignment tab character &.
-l.302   1998 & 72 &
-                      & 18 &   &   &   &   & 90 & 90 \\
-? 
-! Misplaced alignment tab character &.
-l.302   1998 & 72 &   &
-                        18 &   &   &   &   & 90 & 90 \\
-? 
-! Misplaced alignment tab character &.
-l.302   1998 & 72 &   & 18 &
-                               &   &   &   & 90 & 90 \\
-? 
-! Misplaced alignment tab character &.
-l.302   1998 & 72 &   & 18 &   &
-                                   &   &   & 90 & 90 \\
-? 
-! Misplaced alignment tab character &.
-l.302   1998 & 72 &   & 18 &   &   &
-                                       &   & 90 & 90 \\
-? 
-! Misplaced alignment tab character &.
-l.302   1998 & 72 &   & 18 &   &   &   &
-                                           & 90 & 90 \\
-? 
-! Misplaced alignment tab character &.
-l.302   1998 & 72 &   & 18 &   &   &   &   &
-                                             90 & 90 \\
-? 
-! Misplaced alignment tab character &.
-l.302   1998 & 72 &   & 18 &   &   &   &   & 90 &
-                                                  90 \\
-? 
-! Misplaced alignment tab character &.
-l.303   1997 &
-               72 &   & 16 &   &   &   &   & 88 & 88 \\
-? 
-! Misplaced alignment tab character &.
-l.303   1997 & 72 &
-                      & 16 &   &   &   &   & 88 & 88 \\
-? 
-! Misplaced alignment tab character &.
-l.303   1997 & 72 &   &
-                        16 &   &   &   &   & 88 & 88 \\
-? 
-! Misplaced alignment tab character &.
-l.303   1997 & 72 &   & 16 &
-                               &   &   &   & 88 & 88 \\
-? 
-! Misplaced alignment tab character &.
-l.303   1997 & 72 &   & 16 &   &
-                                   &   &   & 88 & 88 \\
-? 
-! Misplaced alignment tab character &.
-l.303   1997 & 72 &   & 16 &   &   &
-                                       &   & 88 & 88 \\
-? 
-! Misplaced alignment tab character &.
-l.303   1997 & 72 &   & 16 &   &   &   &
-                                           & 88 & 88 \\
-? 
-! Misplaced alignment tab character &.
-l.303   1997 & 72 &   & 16 &   &   &   &   &
-                                             88 & 88 \\
-? 
-! Misplaced alignment tab character &.
-l.303   1997 & 72 &   & 16 &   &   &   &   & 88 &
-                                                  88 \\
-? 
-! Misplaced alignment tab character &.
-l.304   1996 &
-               65 &   & 12 &   &   &   &   & 77 & 77 \\
-? 
-! Misplaced alignment tab character &.
-l.304   1996 & 65 &
-                      & 12 &   &   &   &   & 77 & 77 \\
-? 
-! Misplaced alignment tab character &.
-l.304   1996 & 65 &   &
-                        12 &   &   &   &   & 77 & 77 \\
-? 
-! Misplaced alignment tab character &.
-l.304   1996 & 65 &   & 12 &
-                               &   &   &   & 77 & 77 \\
-? 
-! Misplaced alignment tab character &.
-l.304   1996 & 65 &   & 12 &   &
-                                   &   &   & 77 & 77 \\
-? 
-! Misplaced alignment tab character &.
-l.304   1996 & 65 &   & 12 &   &   &
-                                       &   & 77 & 77 \\
-? 
-! Misplaced alignment tab character &.
-l.304   1996 & 65 &   & 12 &   &   &   &
-                                           & 77 & 77 \\
-? 
-! Misplaced alignment tab character &.
-l.304   1996 & 65 &   & 12 &   &   &   &   &
-                                             77 & 77 \\
-? 
-! Misplaced alignment tab character &.
-l.304   1996 & 65 &   & 12 &   &   &   &   & 77 &
-                                                  77 \\
-? 
-! Misplaced alignment tab character &.
-l.305   1995 &
-               56 &   & 18 &   &   &   &   & 74 & 74 \\
-? 
-! Misplaced alignment tab character &.
-l.305   1995 & 56 &
-                      & 18 &   &   &   &   & 74 & 74 \\
-? 
-! Misplaced alignment tab character &.
-l.305   1995 & 56 &   &
-                        18 &   &   &   &   & 74 & 74 \\
-? 
-! Misplaced alignment tab character &.
-l.305   1995 & 56 &   & 18 &
-                               &   &   &   & 74 & 74 \\
-? 
-! Misplaced alignment tab character &.
-l.305   1995 & 56 &   & 18 &   &
-                                   &   &   & 74 & 74 \\
-? 
-! Misplaced alignment tab character &.
-l.305   1995 & 56 &   & 18 &   &   &
-                                       &   & 74 & 74 \\
-? 
-! Misplaced alignment tab character &.
-l.305   1995 & 56 &   & 18 &   &   &   &
-                                           & 74 & 74 \\
-? 
-! Misplaced alignment tab character &.
-l.305   1995 & 56 &   & 18 &   &   &   &   &
-                                             74 & 74 \\
-? 
-! Misplaced alignment tab character &.
-l.305   1995 & 56 &   & 18 &   &   &   &   & 74 &
-                                                  74 \\
-? 
-! Misplaced alignment tab character &.
-l.306   1994 &
-               53 &   &   &   &   &   &   & 53 & 53 \\
-? 
-! Misplaced alignment tab character &.
-l.306   1994 & 53 &
-                      &   &   &   &   &   & 53 & 53 \\
-? 
-! Misplaced alignment tab character &.
-l.306   1994 & 53 &   &
-                          &   &   &   &   & 53 & 53 \\
-? 
-! Misplaced alignment tab character &.
-l.306   1994 & 53 &   &   &
-                              &   &   &   & 53 & 53 \\
-? 
-! Misplaced alignment tab character &.
-l.306   1994 & 53 &   &   &   &
-                                  &   &   & 53 & 53 \\
-? 
-! Misplaced alignment tab character &.
-l.306   1994 & 53 &   &   &   &   &
-                                      &   & 53 & 53 \\
-? 
-! Misplaced alignment tab character &.
-l.306   1994 & 53 &   &   &   &   &   &
-                                          & 53 & 53 \\
-? 
-! Misplaced alignment tab character &.
-l.306   1994 & 53 &   &   &   &   &   &   &
-                                            53 & 53 \\
-? 
-! Misplaced alignment tab character &.
-l.306   1994 & 53 &   &   &   &   &   &   & 53 &
-                                                 53 \\
-? 
-! Misplaced alignment tab character &.
-l.307   1993 &
-               55 &   &   &   &   &   &   & 55 & 55 \\
-? 
-! Misplaced alignment tab character &.
-l.307   1993 & 55 &
-                      &   &   &   &   &   & 55 & 55 \\
-? 
-! Misplaced alignment tab character &.
-l.307   1993 & 55 &   &
-                          &   &   &   &   & 55 & 55 \\
-? 
-! Misplaced alignment tab character &.
-l.307   1993 & 55 &   &   &
-                              &   &   &   & 55 & 55 \\
-? 
-! Misplaced alignment tab character &.
-l.307   1993 & 55 &   &   &   &
-                                  &   &   & 55 & 55 \\
-? 
-! Misplaced alignment tab character &.
-l.307   1993 & 55 &   &   &   &   &
-                                      &   & 55 & 55 \\
-? 
-! Misplaced alignment tab character &.
-l.307   1993 & 55 &   &   &   &   &   &
-                                          & 55 & 55 \\
-? 
-! Misplaced alignment tab character &.
-l.307   1993 & 55 &   &   &   &   &   &   &
-                                            55 & 55 \\
-? 
-! Misplaced alignment tab character &.
-l.307   1993 & 55 &   &   &   &   &   &   & 55 &
-                                                 55 \\
-? 
-! Misplaced alignment tab character &.
-l.308   1992 &
-               53 &   &   &   &   &   &   & 53 & 53 \\
-? 
-! Misplaced alignment tab character &.
-l.308   1992 & 53 &
-                      &   &   &   &   &   & 53 & 53 \\
-? 
-! Misplaced alignment tab character &.
-l.308   1992 & 53 &   &
-                          &   &   &   &   & 53 & 53 \\
-? 
-! Misplaced alignment tab character &.
-l.308   1992 & 53 &   &   &
-                              &   &   &   & 53 & 53 \\
-? 
-! Misplaced alignment tab character &.
-l.308   1992 & 53 &   &   &   &
-                                  &   &   & 53 & 53 \\
-? 
-! Misplaced alignment tab character &.
-l.308   1992 & 53 &   &   &   &   &
-                                      &   & 53 & 53 \\
-? 
-! Misplaced alignment tab character &.
-l.308   1992 & 53 &   &   &   &   &   &
-                                          & 53 & 53 \\
-? 
-! Misplaced alignment tab character &.
-l.308   1992 & 53 &   &   &   &   &   &   &
-                                            53 & 53 \\
-? 
-! Misplaced alignment tab character &.
-l.308   1992 & 53 &   &   &   &   &   &   & 53 &
-                                                 53 \\
-? 
-! Misplaced alignment tab character &.
-l.309   1991 &
-               50 &   &   &   &   &   &   & 50 & 50 \\
-? 
-! Misplaced alignment tab character &.
-l.309   1991 & 50 &
-                      &   &   &   &   &   & 50 & 50 \\
-? 
-! Misplaced alignment tab character &.
-l.309   1991 & 50 &   &
-                          &   &   &   &   & 50 & 50 \\
-? 
-! Misplaced alignment tab character &.
-l.309   1991 & 50 &   &   &
-                              &   &   &   & 50 & 50 \\
-? 
-! Misplaced alignment tab character &.
-l.309   1991 & 50 &   &   &   &
-                                  &   &   & 50 & 50 \\
-? 
-! Misplaced alignment tab character &.
-l.309   1991 & 50 &   &   &   &   &
-                                      &   & 50 & 50 \\
-? 
-! Misplaced alignment tab character &.
-l.309   1991 & 50 &   &   &   &   &   &
-                                          & 50 & 50 \\
-? 
-! Misplaced alignment tab character &.
-l.309   1991 & 50 &   &   &   &   &   &   &
-                                            50 & 50 \\
-? 
-! Misplaced alignment tab character &.
-l.309   1991 & 50 &   &   &   &   &   &   & 50 &
-                                                 50 \\
-? 
-! Misplaced alignment tab character &.
-l.310   1990 &
-               53 &   &   &   &   &   &   & 53 & 53 \\
-? 
-! Misplaced alignment tab character &.
-l.310   1990 & 53 &
-                      &   &   &   &   &   & 53 & 53 \\
-? 
-! Misplaced alignment tab character &.
-l.310   1990 & 53 &   &
-                          &   &   &   &   & 53 & 53 \\
-? 
-! Misplaced alignment tab character &.
-l.310   1990 & 53 &   &   &
-                              &   &   &   & 53 & 53 \\
-? 
-! Misplaced alignment tab character &.
-l.310   1990 & 53 &   &   &   &
-                                  &   &   & 53 & 53 \\
-? 
-! Misplaced alignment tab character &.
-l.310   1990 & 53 &   &   &   &   &
-                                      &   & 53 & 53 \\
-? 
-! Misplaced alignment tab character &.
-l.310   1990 & 53 &   &   &   &   &   &
-                                          & 53 & 53 \\
-? 
-! Misplaced alignment tab character &.
-l.310   1990 & 53 &   &   &   &   &   &   &
-                                            53 & 53 \\
-? 
-! Misplaced alignment tab character &.
-l.310   1990 & 53 &   &   &   &   &   &   & 53 &
-                                                 53 \\
-? 
-! Misplaced \noalign.
-\midrule ->\noalign 
-                    {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global \@...
-l.311   \midrule
-                
-? 
-! Misplaced alignment tab character &.
-l.312   \textbf{sum} &
-                       \textbf{1515} & \textbf{9} & \textbf{595} & \textbf{2...
-
-? 
-! Misplaced alignment tab character &.
-l.312   \textbf{sum} & \textbf{1515} &
-                                       \textbf{9} & \textbf{595} & \textbf{2...
-
-? 
-! Misplaced alignment tab character &.
-l.312 ...extbf{sum} & \textbf{1515} & \textbf{9} &
-                                                   \textbf{595} & \textbf{27...
-
-? 
-! Misplaced alignment tab character &.
-l.312 ...extbf{1515} & \textbf{9} & \textbf{595} &
-                                                   \textbf{277} & \textbf{35...
-
-? 
-! Misplaced alignment tab character &.
-l.312 ...textbf{9} & \textbf{595} & \textbf{277} &
-                                                   \textbf{35} & \textbf{100...
-
-? 
-! Misplaced alignment tab character &.
-l.312 ...extbf{595} & \textbf{277} & \textbf{35} &
-                                                   \textbf{100} & \textbf{15...
-
-? 
-! Misplaced alignment tab character &.
-l.312 ...extbf{277} & \textbf{35} & \textbf{100} &
-                                                   \textbf{15} & \textbf{254...
-
-? 
-! Misplaced alignment tab character &.
-l.312 ...textbf{35} & \textbf{100} & \textbf{15} &
-                                                   \textbf{2546} & \textbf{2...
-
-? 
-! Misplaced alignment tab character &.
-l.312 ...xtbf{100} & \textbf{15} & \textbf{2546} &
-                                                   \textbf{2431} \\
-? 
-! Misplaced \noalign.
-\bottomrule ->\noalign 
-                       {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global...
-l.313   \bottomrule
-                   
-? 
-
-! LaTeX Error: \begin{table} on input line 272 ended by \end{tabu}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.314   \end{tabu}
-                  %
-? 
-
-LaTeX Warning: Reference `fig:sample' on page 2 undefined on input line 319.
-
-[2] <pictures/paper-count-w-2015-new.pdf, id=38, 832.35068pt x 451.25789pt>
-File: pictures/paper-count-w-2015-new.pdf Graphic file (type pdf)
-
-<use pictures/paper-count-w-2015-new.pdf>
-Package pdftex.def Info: pictures/paper-count-w-2015-new.pdf used on input line
- 348.
-(pdftex.def)             Requested size: 251.31898pt x 136.25288pt.
-
-
-LaTeX Warning: Reference `tab:vis_papers' on page 3 undefined on input line 349
-.
-
-
-LaTeX Warning: Citation `Isenberg:2017:VMC' on page 3 undefined on input line 3
-49.
-
-
-LaTeX Warning: Reference `tab:vis_papers' on page 3 undefined on input line 349
-.
-
-
-LaTeX Warning: Citation `Isenberg:2017:VMC' on page 3 undefined on input line 3
-49.
-
-
-LaTeX Warning: Citation `Lorensen:1987:MCA' on page 3 undefined on input line 3
-55.
-
-
-LaTeX Warning: Citation `Lorensen:1987:MCA' on page 3 undefined on input line 3
-58.
-
-
-LaTeX Warning: Citation `Wyvill:1986:DSS' on page 3 undefined on input line 358
-.
-
-
-LaTeX Warning: Citation `Nielson:1991:TAD' on page 3 undefined on input line 37
-2.
+<use pictures/interface.PNG>
+Package pdftex.def Info: pictures/interface.PNG used on input line 207.
+(pdftex.def)             Requested size: 251.31898pt x 259.29787pt.
 
 No file template.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 414.
-[3 <./pictures/paper-count-w-2015-new.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 414.
- (./template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 414.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 414.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 224.
+[2 <./pictures/entityrelationship.PNG> <./pictures/interface.PNG>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 224.
+
+(./template.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 224.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 224.
 
 
 Package rerunfilecheck Warning: File `template.out' has changed.
@@ -1840,42 +592,30 @@ Package rerunfilecheck Warning: File `template.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `template.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  2A7A8FBDC37DCF04DBF6A0B59A14E9E1;561.
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             After:  B7D4351F56883E3655C2F2F0E7726FA0;325.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 414.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 224.
  ) )
-(\end occurred when \ifx on line 53 was incomplete)
 (\end occurred when \ifx on line 53 was incomplete) 
 Here is how much of TeX's memory you used:
- 7777 strings out of 495063
- 118916 string characters out of 3182201
- 234806 words of memory out of 3000000
- 10646 multiletter control sequences out of 15000+200000
- 60638 words of font info for 199 fonts, out of 3000000 for 9000
+ 7577 strings out of 495063
+ 116390 string characters out of 3182201
+ 222994 words of memory out of 3000000
+ 10554 multiletter control sequences out of 15000+200000
+ 37802 words of font info for 126 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 42i,8n,35p,799b,395s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,7n,35p,345b,383s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texlive/texmf-di
-st/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txtt
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
-/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on template.pdf (3 pages, 667974 bytes).
+st/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/h
+elvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr
+8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on template.pdf (2 pages, 671002 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
- 24 named destinations out of 1000 (max. 500000)
- 55824 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 58 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
+ 38933 words of extra memory for PDF output out of 42996 (max. 10000000)
 
