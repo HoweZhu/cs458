@@ -48,20 +48,19 @@ def parse_input(_input):
         return string
 
     else:
-        print "Unsupported type"
+        sys.stderr.write("Unsupported type:")
+        sys.exit(1)
 
 def main():
-    dbf_path = ""
-
     # --- Check args 
     if len(sys.argv) != 2:
-        print "Usage: python convert.py <path-to-dbf-file>"
+        sys.stderr.write("Usage: python convert.py <path-to-dbf-file>")
         sys.exit(1)
     elif os.path.exists(sys.argv[1]) != True:
-        print sys.argv[1] + " does not exist."
+        sys.stderr.write(sys.argv[1] + " does not exist.")
         sys.exit(1)
     elif sys.argv[1].find(".dbf") == -1:
-        print sys.argv[1] + " is not a .dbf file."
+        sys.stderr.write(sys.argv[1] + " is not a .dbf file.")
         sys.exit(1)
     
     dbf_path = sys.argv[1]
