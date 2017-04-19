@@ -6,7 +6,7 @@ from dbfread import DBF
 # pip install dbfread
 # ex: python convert.py 2015\accident.dbf > 2015_accident.sql
 
-def esc_str(input):
+def esc_quotes(input):
     return input.replace('\'', '\'').replace('\"', '\"')
 
 def parse_input(_input):
@@ -21,7 +21,7 @@ def parse_input(_input):
             if i < len(_input) - 1: 
                 string += ","
 
-        #string = esc_str(string)
+        #string = esc_quotes(string)
         return string
 
     # ex: k,v pairs from record
@@ -31,7 +31,6 @@ def parse_input(_input):
         for col in _input:
             val = _input[col]
             values = ""
-            is_string = False
             
             if isinstance(val, str) or isinstance(val, unicode):
                 values += "\"" + str(val) + "\""
@@ -44,7 +43,7 @@ def parse_input(_input):
             string += values 
             i += 1
 
-        string = esc_str(string)
+        string = esc_quotes(string)
         return string
 
     else:
