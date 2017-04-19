@@ -117,13 +117,13 @@
 %% Uncomment below to include a teaser figure.
 \teaser{
   \centering
-  \includegraphics[width=\linewidth]{1031-highway}
+  \includegraphics[width=\linewidth]{1031-highway.jpg}
   \caption{Interstate 5 on the way to Portland, Oregon.}
 	\label{fig:teaser}
 }
 
 %% Uncomment below to disable the manuscript note
-%\renewcommand{\manuscriptnotetxt}{}
+\renewcommand{\manuscriptnotetxt}{}
 
 %% Copyright space is enabled by default as required by guidelines.
 %% It is disabled by the 'review' option or via the following command:
@@ -146,22 +146,26 @@
 \maketitle
 
 %% \section{Introduction} %for journal use above \firstsection{..} instead
+\paragraph
 Traffic accidents happen to a certain extent every year, and the number of fatal accidents in Oregon has been increasing. 
 There are detailed reports on traffic accidents online; however, those reports include only numbers and not easy to see what correlations exist among the data. 
 Therefore, we would like to visualize and organize the data in order to make it easier to see correlations between variables.
 Hopefully this will lead to finding insights and solutions to help decrease the number of accidents. 
 
+\paragraph
 It is important that the problem needs to be addressed with a visualization because it’s easy to get lost in black and white statistics. 
 It is difficult for a person to identify trends just by looking at thousands and thousands of rows of raw data each with many columns. 
 Transforming this raw data into easy to digest visualizations will allow people to more easily recognize and address any trends hidden inside all the numbers. 
 Potential users could range from the average person interested in traffic statistics to ODOT crew members and law enforcement members interested in evaluating effectiveness of certain policies aimed at reducing traffic accidents. 
 
+\paragraph
 Our approach is going to be to first process the data that we have gathered and put it into a SQL database so that we can more easily query the data for information that we’re interested in. 
 From there, with the assistance of a user guide that is associated with our data set we will be able to identify trends within the data such as vehicular accidents per capita by county, amount of accidents resulting from drunk driving over time, and so on. 
 Once we have identified the trends that we are interested in we will then develop a user interface containing visualizations of these trends so that people can interact with and understand them.
 
 \section{Visualization Tasks}
 
+\paragraph
 Questions that we will address with the visualization are the following:
 \begin{itemize}
 \item How many accidents happened depending on vehicles (car, motorcycles etc.).
@@ -174,6 +178,7 @@ Questions that we will address with the visualization are the following:
 
 \section{Data Source}
 
+\paragraph
 Our primary data source is going to be the National Highway Traffic Safety Administration (NHTSA). 
 They have an FTP server hosting very detailed accident data ranging from 1976-2015. 
 For our purposes we will only be looking at the past five to six years, partially because of inconsistencies within the data by year. 
@@ -182,6 +187,7 @@ Additionally, we may be able to leverage ODOT accident data to supplement the da
 
 \section{Data Organization}
 
+\paragraph
 Three entities:
 \begin{itemize}
   \item Vehicle Crash
@@ -189,6 +195,7 @@ Three entities:
   \item Vehicle
 \end{itemize}
 
+\paragraph
 Relevant relationships:
 \begin{itemize}
   \item Fatal/Injury vehicle crash to person: 1 mandatory to many optional
@@ -198,19 +205,17 @@ Relevant relationships:
 
 \section{Implementation of ER Diagrams}
 
-<image>
-
 \begin{figure}[tb]
  \centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
- \includegraphics[width=\columnwidth]{ER}
+ \includegraphics[width=\columnwidth]{ER.jpg}
  \caption{Entity-Relation diagram showing the relationships between vehicle crashes, people, and vehicles.}
  \label{fig:sample}
 \end{figure}
 
 \section{Design of Visualization Interface}
 
+\paragraph
 TODO
-
 
 %% if specified like this the section will be committed in review mode
 \acknowledgments{
