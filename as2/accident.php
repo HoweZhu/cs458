@@ -14,6 +14,7 @@ $year = $_GET['year'];
 $county = $_GET['county'];
 $drunk = $_GET['drunk'];
 $fatalities = $_GET['fatalities'];
+$sex = $_GET['sex'];
 
 if($year != ""){
     $where[] = " YEAR = '" . mysql_real_escape_string($year) . "'";
@@ -43,17 +44,56 @@ if(!empty($where_clause)){
     $query .= " AND $where_clause"; 
 }
 
-$results = [];
+$results = array();
 if($result = $db->query($query)){
     while($row = $result->fetch_assoc()){
-        array_push($results, $row);
+        $results[$row["ST_CASE"]] = array(
+            "LATITUDE" => $row["LATITUDE"],
+            "LONGITUD" => $row["LONGITUD"]
+        );
     }
 
     $result->free();
 }
 
-$db->close();
+// --- All this garbage below is because my raspberry pi is too slow as a DB server
+// --- and can't process joins quick enough
 
-echo json_encode($results);
+// If must filter by gender
+if($sex != ""){
+    $gender = mysql_real_escape_string($sex);
+    $query = "SELECT ST_CASE FROM person WHERE SEX = " . $gender;
+    $genderResults = array();
+    if($result = $db->query($query)){
+        while($row = $result->fetch_assoc()){
+            array_push($genderResults, $row["ST_CASE"]);
+        }
+
+        $result->free();
+    }
+
+    // Add results that are in gender results and also results to new array
+    // (Set of all ST_CASE) intersect (Set of all ST_CASE where gender = whatever)
+    $filteredPairs = array();
+    for($i = 0; $i < count($genderResults); $i++){
+        $result = $results[$genderResults[$i]];
+        if($result != null){
+            array_push($filteredPairs, $results[$genderResults[$i]]);
+        }
+    }
+
+    echo json_encode($filteredPairs);
+}else{
+
+    // Convert obj to array of keyval pairs
+    $pairs = array();
+    foreach($results as $key => $value){
+        array_push($pairs, array(
+            "LATITUDE" => $value["LATITUDE"],
+            "LONGITUD" => $value["LONGITUD"]
+        ));
+    }
+    echo json_encode($pairs);
+}
 
 ?>

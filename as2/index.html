@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDokgSMOdedtKtRkWBy6M_WAQNO6l79_tk&libraries=visualization"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://bootswatch.com/paper/bootstrap.min.css">
+    <link rel="stylesheet" href="http://web.engr.oregonstate.edu/~desiletn/cs458/main.css">
+
+    <title>Oregon Vehicle Accidents</title>
+</head>
+
+<body>
+    <div id="controls-wrapper">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div>
+                    <button class="btn btn-primary btn-sm" onclick="toggleHeatmap()">Toggle Heatmap</button>
+                    <button class="btn btn-primary btn-sm" onclick="changeGradient()">Change gradient</button>
+                    <button class="btn btn-primary btn-sm" onclick="changeRadius()">Change radius</button>
+                    <button class="btn btn-primary btn-sm" onclick="changeOpacity()">Change opacity</button>
+                    <button class="btn btn-primary btn-sm" onclick="toggleOptions()">Toggle options</button>
+                </div>
+
+                <div id="options">
+                    <hr>
+
+                    <div id="yearOptions">
+                        <p style="text-align: center;">Year: <span id="yearValue">All</span></p>
+                        <div style="display: flex;">
+                            <span>2011 </span>
+                            <input id="yearSlider" type="range" min="2011" max="2015" step="1" value="2011" list="steplist" onchange="updateMap()"/>
+                            <span> 2015</span>
+                        </div>
+                        <datalist id="steplist">
+                            <option value="2011">
+                            <option value="2012">
+                            <option value="2013">
+                            <option value="2014">
+                            <option value="2015">
+                        </datalist>
+                    </div>
+
+                    <div id="genderOptions">
+                        <span>Gender: </span>
+                        <input type="radio" name="sex" onclick="updateMap()" value="" checked="true"> Both
+                        <input type="radio" name="sex" onclick="updateMap()" value="1" style="margin-left: 12px;"> Male 
+                        <input type="radio" name="sex" onclick="updateMap()" value="2" style="margin-left: 12px;"> Female
+                    </div>
+
+                    <div id="genderOptions">
+                        <span>Drinking: </span>
+                        <input type="radio" name="drinking" onclick="updateMap()" value="" checked="true"> All
+                        <input type="radio" name="drinking" onclick="updateMap()" value="true" style="margin-left: 12px;"> Yes 
+                        <input type="radio" name="drinking" onclick="updateMap()" value="false" style="margin-left: 12px;"> No
+                    </div>
+
+                    <div id="fatalitiesOptions">
+                        <span>Fatalities: </span>
+                        <input type="radio" name="fatalities" onclick="updateMap()" value="" checked="true"> All
+                        <input type="radio" name="fatalities" onclick="updateMap()" value="1" style="margin-left: 12px;"> 1
+                        <input type="radio" name="fatalities" onclick="updateMap()" value="2" style="margin-left: 12px;"> 2
+                        <input type="radio" name="fatalities" onclick="updateMap()" value="3" style="margin-left: 12px;"> 3
+                        <input type="radio" name="fatalities" onclick="updateMap()" value="4" style="margin-left: 12px;"> 4
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="map"></div>
+</body>
+<script type="text/javascript" src="http://web.engr.oregonstate.edu/~desiletn/cs458/main.js"></script>
+<script type="text/javascript">
+    google.maps.event.addDomListener(window, "load", initMap);
+</script>
+
+</html>
